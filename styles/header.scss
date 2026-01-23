@@ -1,0 +1,42 @@
+header{
+    display: flex;
+    max-width: 780px;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+    padding-top: 20px;
+}
+header nav a{
+    color: rgba(255, 255, 255, .6);
+    padding: 10px 10px;
+    text-decoration: none;
+}
+header nav a:hover{
+    color: white;
+}
+.btn {
+  border: 3px solid #eab24a;
+    color: #eab24a;
+    text-decoration: none;
+  padding: 10px 22px;
+  border-radius: 9999px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 4px rgba(248, 218, 66, 0.35);
+}
+
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 14px  rgba(248, 218, 66, 0.35);
+  
+}
+
+/* click effect */
+.btn:active {
+  transform: scale(0.96);
+}
+
