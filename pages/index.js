@@ -25,7 +25,15 @@ export default function Home() {
   }, []);
   
   return (   
-    <main>
+    <>
+      <Head>
+        <title>My Portfolio</title>
+        <meta name="description" content="Frontend Developer Portfolio" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="manifest" href="/manifest.json" />
+      </Head>
+      <main>
 <Header/>
 <Intro/>
 <About/>
@@ -35,6 +43,7 @@ export default function Home() {
 <Experience/>
 <Contact/>
 <Footer/>
-    </main>
+      </main>
+    </>
   )
 }
