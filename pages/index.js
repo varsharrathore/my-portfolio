@@ -9,6 +9,7 @@ import Porfolio from '@/components/Portfolio'
 import Experience from '@/components/Experience'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
+import WhatsAppFloat from '@/components/WhatsAppFloat'
 import { useCallback, useEffect } from 'react'
 
 export default function Home() {
@@ -43,6 +44,7 @@ export default function Home() {
 <Experience/>
 <Contact/>
 <Footer/>
+<WhatsAppFloat/>
       </main>
     </>
   )
