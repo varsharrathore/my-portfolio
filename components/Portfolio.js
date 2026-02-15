@@ -27,8 +27,8 @@ export default function Portfolio() {
         </a>
       </div>
       <div className="box2 p-4 md:w-1/3 sm:mb-0 mb-6">
-        <a href="https://your-project5.netlify.app" target="_blank" rel="noopener noreferrer">
-          <img alt="content" className="object-cover object-center h-full w-full cursor-pointer hover:opacity-80 transition-opacity" src="/5.png"/>
+        <a href="https://radhikamachinetools.com/" target="_blank" rel="noopener noreferrer">
+          <img alt="content" className="object-cover object-center h-full w-full cursor-pointer hover:opacity-80 transition-opacity" src="/rmt.jpg"/>
         </a>
       </div>
       <div className="box p-4 md:w-1/3 sm:mb-0 mb-6">
